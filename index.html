@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi biografia</title>
+  <title>Mi biografía</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #50b3a2;
+      color: white;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #e8491d 3px solid;
+    }
+    header a {
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    header li {
+      float: left;
+      display: inline;
+      padding: 0 20px 0 20px;
+    }
+    header #branding {
+      float: left;
+    }
+    header #branding h1 {
+      margin: 0;
+    }
+    header nav {
+      float: right;
+      margin-top: 10px;
+    }
+    header .highlight, header .current a {
+      color: #e8491d;
+      font-weight: bold;
+    }
+    header a:hover {
+      color: #cccccc;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <img> src= "https://github.com/soficlar/proyecto-biografias/blob/Felipe/el%20bicho.jfif"
-    <h1>Biography</h1>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Mi biografía</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="https://web.facebook.com/juanfelipe.bonillaserrato/">Facebook</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h2>Personal Information</h2>
+  <div class="container">
+    <img src="me.jpeg" alt="Foto de Juan Felipe Bonilla" style="display: block; margin: 0 auto; width: 480px; height: 480px;">
+    <h2>Información personal</h2>
     <p>Soy Juan Felipe Bonilla Serrato, tengo 18 años y estudio desarrollo de software en la Universidad Surcolombiana de la ciudad de Neiva, Huila.</p>
 
-    <h2>logros</h2>
-    <p>Soy Juan Felipe Bonilla Serrato, graduado de la Institución Educativa José Eustasio Rivera, donde obtuve el certificado de Técnico en Inglés durante mi bachillerato.</p>
+    <h2>Logros</h2><style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+    <p>Soy graduado de la Institución Educativa José Eustasio Rivera, donde obtuve el certificado de Técnico en Inglés durante mi bachillerato.</p>
 
     <h2>Intereses</h2>
     <p>Disfruto mucho del fútbol, los videojuegos y aprender idiomas.</p>
-
-    
-
+  </div>
 </body>
 </html>
