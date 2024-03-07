@@ -1,0 +1,17 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi biografia</title>
+</head>
+<body>
+    <h1>Mi biografia</h1>
+    <h3>Mi nombre es Favian Rojas naci en Puerto Rico Caqueta en el año 2003,
+        mis gustos son el futbol y la tecnologia y mi idolo es CR7
+
+    </h3>
+    <img src="cr7.jpg" alt="Mi foto">
+    
+</body>
+</html>
