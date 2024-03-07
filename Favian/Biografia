@@ -12,6 +12,17 @@
 
     </h3>
     <img src="cr7.jpg" alt="Mi foto">
-    
+    <ul>
+        <li>
+          <a href="index.html">">Juan Felipe Bonilla Serrato</a>
+        </li>
+    <li><a href="Biografia Juan Pablo.html">"Juan Pablo</a>
+    </li>
+    <li><a href="INDEX1.HTML">Sofia</a>
+    </li>
+    <li><a href="Biografia">Favian</a>
+
+    </li>
+      </ul>
 </body>
 </html>
